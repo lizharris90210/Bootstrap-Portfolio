@@ -188,19 +188,30 @@ body {
   
   label,
   input[type=text],
-  input[type=email],
+  input[id=name],
   textarea {
     display: block;
     width: 100%;
   }
   
   input[type=text],
-  input[type=email],
+  input[id=email],
   textarea {
     height: 35px;
     padding: 0 10px;
     font-size: 14px;
     border: 1px solid #dddddd;
+    width: 50%;
+  }
+
+  
+  input[id=message],
+  textarea {
+    height: 100px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    width: 50%;
   }
   
   textarea {
