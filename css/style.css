@@ -126,7 +126,8 @@ h3, h2 {
 
 #main-container {
   padding-top: 130px;
-  min-height: calc(100vh - 70px);
+  height: 100%;
+  width: 100%;
 }
 
 .main-section {
@@ -139,7 +140,7 @@ h3, h2 {
   border: 1px solid #dddddd;
 }
 
-/* portfolio page 
+/* portfolio page */
 
 .work {
   position: relative;
@@ -161,10 +162,10 @@ h3, h2 {
   opacity: 0.8;
 }
 
-.work h3 {
+.work h3  {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 200px;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
@@ -174,7 +175,7 @@ h3, h2 {
   background: #4aaaa5;
   border-bottom: 0;
 }
-*/
+
 .auth-image {
   float: left;
   width: 200px;
