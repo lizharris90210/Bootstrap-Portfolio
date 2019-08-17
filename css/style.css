@@ -141,7 +141,17 @@ h3, h2 {
 }
 
 /* portfolio page */
+.rounded-left {
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
 
+.rounded-right {
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
 .work {
   position: relative;
   float: left;
